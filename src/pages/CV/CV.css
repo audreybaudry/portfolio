@@ -1,0 +1,43 @@
+.top-cv {
+  margin-top: 14%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.info-formation {
+  margin-left: 3%;
+  text-align: center;
+}
+.title-cv {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+.cv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.my-cv {
+  width: 90%;
+  margin-bottom: 5%;
+}
+
+/*      DESKTOP VERSION      */
+@media screen and (min-width: 990px) {
+  .top-cv {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+  .info-formation {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .title-cv {
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+}

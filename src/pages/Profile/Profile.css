@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(57, 99, 75);
+  font-family: quicksand;
+  color: antiquewhite;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-profile {
+  width: 40%;
+  height: 40%;
+  border-radius: 100%;
+  margin-top: 4em;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+}
+.bienvenue-profile {
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.info-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-profile {
+  font-size: 2.2em;
+  margin-top: 2em;
+}
+.job-profile {
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+.images {
+  width: 100%;
+  text-align: center;
+}
+.image-soc {
+  width: 12%;
+  height: auto;
+  margin: 1.5em;
+}
+.image-mail {
+  width: 14%;
+}
+.button {
+  text-align: center;
+}
+
+.button-profile {
+  width: 40%;
+  padding: 0.2em;
+  font-size: 1em;
+  margin-top: 8%;
+  margin-bottom: 18%;
+  border-radius: 0.3em;
+  background-color: antiquewhite;
+}
+
+#about {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+}
+.about-title {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.about-profile {
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 10%;
+  color: rgb(57, 99, 75);
+}
+
+/*      DESKTOP VERSION      */
+@media screen and (min-width: 990px) {
+  .container-profile {
+    display: flex;
+    flex-direction: row;
+  }
+  .photo-profile {
+    width: 25%;
+    height: 25%;
+    margin-left: 15%;
+  }
+  .info-profile {
+    margin-top: 7%;
+  }
+  .bienvenue-profile {
+    font-size: 1.5em;
+  }
+  .name-profile {
+    margin-bottom: 0.5em;
+    margin-top: 3em;
+  }
+  .job-profile {
+    margin-bottom: 3em;
+  }
+  .image-soc {
+    width: 9%;
+  }
+  .button-profile {
+    width: 15%;
+    font-size: 1.5em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    margin-right: 60%;
+    margin-left: 40%;
+  }
+  .about-title {
+    font-size: 2em;
+  }
+  #about {
+    font-size: 1.3em;
+    text-align: center;
+  }
+}
