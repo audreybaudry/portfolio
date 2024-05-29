@@ -21,10 +21,7 @@ function Profile() {
               href="https://www.linkedin.com/in/audrey-baudry/"
               target="_blank"
             >
-              <img
-                src="../../../public/reseaux-sociaux/linkedin.svg"
-                className="image-soc"
-              />
+              <img src="/reseaux-sociaux/linkedin.svg" className="image-soc" />
             </a>
             <a href="mailto:audrey.baudry@outlook.fr">
               <img
