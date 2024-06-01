@@ -13,13 +13,17 @@
 
 .links-navbar {
   text-decoration: none;
-  color: black;
+  color: rgb(57, 99, 75);
+  font-weight: bold;
 }
 
 /*      DESKTOP VERSION      */
 @media screen and (min-width: 990px) {
   .navbar {
-    font-size: 1.3em;
-    height: 8%;
+    font-size: 1.1em;
+    height: 6%;
+  }
+  .links-navbar:hover {
+    transform: scale(1.2);
   }
 }

@@ -33,25 +33,57 @@ function Profile() {
         </div>
       </div>
       <div className="button">
-        <a href="#about">
+        <a href="#down">
           <button className="button-profile">À propos de moi</button>
         </a>
       </div>
       <div className="about-profile">
-        <h3 className="about-title">À propos de moi</h3>
-        <p id="about">
-          Je m'appelle Audrey Baudry. J'étais formatrice de Français Langue
-          Etrangère et de Savoirs de base jusque début 2024 où j'ai commencé ma
-          reconversion professionnelle. Je suis en ce moment une formation
-          "Développeur Web Full Stack" à la Wild Code School de Lille. C'est une
-          formation intensive de 5 mois qui permet d'acquérir des capacités
-          d'apprentissage dans le milieu du numérique. <br /> Lors de la
-          formation, j'ai pu découvrir des notions de frontend avec HTML, CSS,
-          JavaScript, React, Node.js... mais aussi du backend avec Express,
-          MySQL... <br /> Lors de cette formation, en plus des quêtes et cours
-          qui permettent d'appréhender ces notions nouvelles, des projets en
-          groupe sont réalisés.
-        </p>
+        <div id="down">
+          <h3 className="about-titles">À propos de moi</h3>
+          <p>
+            Je m'appelle Audrey Baudry. Jusqu'au début de l'année 2024, j'étais
+            formatrice en Français Langue Étrangère et en Savoirs de base.
+            Depuis cette période, j'ai entamé une reconversion professionnelle.{" "}
+            <br />
+            Je suis actuellement une formation de "Développeur Web Full Stack" à
+            la Wild Code School de Lille. <br />
+            Cette formation intensive de cinq mois me permet d'acquérir des
+            compétences solides dans le domaine du dévelopement web. Au cours de
+            cette formation, j'ai découvert plusieurs notions de frontend telles
+            que HTML, CSS, JavaScript, React, et Node.js, ainsi que des notions
+            de backend avec Express et MySQL. <br />
+            En plus des quêtes et des cours, qui facilitent l'apprentissage de
+            ces nouvelles compétences, nous réalisons également des projets en
+            groupe qui permettent une montée en compétence notamment grâce à
+            l'entraide et aux périodes de pair coding.
+          </p>
+          <div>
+            <h2 className="about-titles">Formation</h2>
+            <div className="info-formation">
+              <p>
+                En cours :{" "}
+                <a
+                  href="https://www.wildcodeschool.com/fr-fr/formations-developpement-web/formation-developpeur-web"
+                  target="_blank"
+                >
+                  Développeur Web Full Stack
+                </a>
+              </p>
+              <p>
+                Formation de 5 mois du 26 février au 26 juillet à la Wild Code
+                School de Lille
+              </p>
+            </div>
+          </div>
+          <div className="cv">
+            <button
+              onClick={() => window.open("/CV-Audrey-Baudry.pdf", "_blank")}
+              className="button-cv"
+            >
+              Télécharger mon CV
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );

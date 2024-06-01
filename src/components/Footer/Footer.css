@@ -1,0 +1,21 @@
+.image-footer {
+  width: 10%;
+  margin: 1%;
+}
+
+.images-footer {
+  text-align: center;
+  color: rgb(57, 99, 75);
+  margin-top: 2%;
+}
+.footer {
+  background-color: rgb(57, 99, 75);
+  margin-bottom: 1%;
+}
+
+/*      DESKTOP VERSION      */
+@media screen and (min-width: 990px) {
+  .image-footer {
+    width: 4%;
+  }
+}

@@ -11,14 +11,11 @@ function Navbar() {
       <Link to="/" className="links-navbar" onClick={scrollTop}>
         <p>Profil</p>
       </Link>
-      <Link to="/Competences" className="links-navbar" onClick={scrollTop}>
-        <p>Compétences</p>
-      </Link>
       <Link to="/Projets" className="links-navbar" onClick={scrollTop}>
         <p>Projets</p>
       </Link>
-      <Link to="/CV" className="links-navbar" onClick={scrollTop}>
-        <p>CV</p>
+      <Link to="/Competences" className="links-navbar" onClick={scrollTop}>
+        <p>Compétences</p>
       </Link>
     </div>
   );

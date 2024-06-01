@@ -45,24 +45,24 @@ function Skills() {
 
   return (
     <div className="skills">
-      <h2 className="title-skills">Mes langages : </h2>
+      <h2 className="title-languages">Mes langages </h2>
 
       <div className="all-skills">
         {languages.map((language) => (
           <div className="info-skills">
             <img src={language.logo} className="logo-skills" />
-            <p>{language.name}</p>
+            <p className="name-skills">{language.name}</p>
           </div>
         ))}
       </div>
 
-      <h2>Mes bibliothèques et frameworks : </h2>
+      <h2 className="title-tools">Mes bibliothèques et frameworks </h2>
 
       <div className="all-skills">
         {tools.map((tool) => (
           <div className="info-skills">
             <img src={tool.logo} className="logo-skills" />
-            <p>{tool.name}</p>
+            <p className="name-skills">{tool.name}</p>
           </div>
         ))}
       </div>

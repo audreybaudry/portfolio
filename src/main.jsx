@@ -7,7 +7,6 @@ import App from "./App";
 import Profile from "./pages/Profile/Profile.jsx";
 import Projects from "./pages/Projets/Projects";
 import Skills from "./pages/Skills/Skills";
-import CV from "./pages/CV/CV";
 
 const router = createBrowserRouter([
   {
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
       {
         path: "/Competences",
         element: <Skills />,
-      },
-      {
-        path: "/CV",
-        element: <CV />,
       },
     ],
   },
