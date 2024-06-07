@@ -8,16 +8,13 @@ h2 {
   text-align: center;
 }
 .title-languages {
-  margin-top: 15%;
+  margin-top: 13%;
   margin-bottom: 5%;
 }
-
 .title-tools {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 7%;
   margin-left: 1%;
 }
-
 .info-skills {
   display: flex;
   flex-direction: column;
@@ -39,12 +36,9 @@ h2 {
 
 /*      DESKTOP VERSION      */
 @media screen and (min-width: 990px) {
-  .title-skills {
-    margin-top: 9%;
-  }
   .title-languages {
     font-size: 2.5em;
-    margin-top: 7%;
+    margin-top: 10%;
     margin-bottom: 2%;
   }
   .title-tools {
