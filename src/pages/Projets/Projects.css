@@ -1,15 +1,21 @@
 /* Projects.css */
 .slider-container {
   padding: 20px;
+  position: relative;
+  z-index: 1;
 }
-
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
 .projects-title {
   font-size: 1.8em;
-  margin-top: 0.6em;
-  margin-bottom: 0.7em;
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
   text-align: center;
 }
-
 .project-card-container {
   border: 2px solid black;
   background-color: rgb(231, 228, 223);
@@ -17,6 +23,8 @@
   color: rgb(57, 99, 75);
   text-align: center;
   min-height: 85vh;
+  width: 90%;
+  margin: 0 10px;
 }
 .project-numero {
   margin-top: 3%;
@@ -25,27 +33,24 @@
 .project-title {
   font-size: 1.4em;
   margin-top: 0.7em;
-  margin-bottom: 0.7em;
+  margin-bottom: 1em;
   text-align: center;
   text-shadow: 0.5px 0.5px 0.5px;
 }
-
 .projects-image {
   width: 95%;
   object-fit: cover;
   border-radius: 1em;
   margin: 0 auto;
 }
-
 .description-projects {
   display: flex;
   text-align: justify;
   margin-left: 0.3em;
   margin-right: 1.3em;
-  margin-top: 0.7em;
+  margin-top: 1.5em;
   margin-bottom: 0.7em;
 }
-
 .button-projects {
   font-size: 1em;
   color: rgb(57, 99, 75);
@@ -63,11 +68,7 @@
   bottom: 1.3em;
   margin-left: 3.5em;
 }
-.slick-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 /* DESKTOP VERSION */
 @media screen and (min-width: 990px) {
   .projet-card {
@@ -75,28 +76,23 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  .projects-title {
+    font-size: 4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+  }
   .project-card-container {
     width: 30vw;
     min-height: 80vh;
     margin: 0.3em;
   }
-
-  .projects-title {
-    font-size: 4em;
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
-  }
-
   .project-title {
     font-size: 2em;
   }
-
   .projects-image {
     width: 90%;
     margin-bottom: 1em;
   }
-
   .description-projects {
     padding: 5%;
     font-weight: bold;

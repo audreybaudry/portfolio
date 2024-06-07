@@ -4,7 +4,7 @@ function Profile() {
   return (
     <>
       <div className="container-profile">
-        <img src="/audrey-baudry.png" className="photo-profile" />
+        <img src="/audrey-baudry.jpg" className="photo-profile" />
         <div className="info-profile">
           <p className="bienvenue-profile">Bienvenue sur mon porfolio</p>
           <h2 className="name-profile">Audrey BAUDRY</h2>
@@ -33,12 +33,12 @@ function Profile() {
         </div>
       </div>
       <div className="button">
-        <a href="#down">
+        <a href="#a-propos">
           <button className="button-profile">À propos de moi</button>
         </a>
       </div>
       <div className="about-profile">
-        <div id="down">
+        <div id="a-propos">
           <h3 className="about-titles">À propos de moi</h3>
           <p>
             Je m'appelle Audrey Baudry. Jusqu'au début de l'année 2024, j'étais
@@ -55,7 +55,7 @@ function Profile() {
             En plus des quêtes et des cours, qui facilitent l'apprentissage de
             ces nouvelles compétences, nous réalisons également des projets en
             groupe qui permettent une montée en compétence notamment grâce à
-            l'entraide et aux périodes de pair coding.
+            l'entraide et au pair coding.
           </p>
           <div>
             <h2 className="about-titles">Formation</h2>
@@ -77,7 +77,7 @@ function Profile() {
           </div>
           <div className="cv">
             <button
-              onClick={() => window.open("/CV-Audrey-Baudry.pdf", "_blank")}
+              onClick={() => window.open("/CV-Audrey_Baudry.pdf", "_blank")}
               className="button-cv"
             >
               Télécharger mon CV

@@ -51,7 +51,6 @@ function Skills() {
         {languages.map((language) => (
           <div className="info-skills">
             <img src={language.logo} className="logo-skills" />
-            <p className="name-skills">{language.name}</p>
           </div>
         ))}
       </div>
@@ -62,7 +61,6 @@ function Skills() {
         {tools.map((tool) => (
           <div className="info-skills">
             <img src={tool.logo} className="logo-skills" />
-            <p className="name-skills">{tool.name}</p>
           </div>
         ))}
       </div>
