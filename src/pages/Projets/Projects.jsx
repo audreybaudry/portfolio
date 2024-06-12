@@ -23,7 +23,7 @@ function Projects() {
     {
       numero: "Projet 2",
       title: "Ready Player Found",
-      link: "https://office-de-tourisme-de-la-lune.vercel.app",
+      link: "https://ready-player-found.vercel.app",
       image: "/sites/projet-2.png",
       description:
         " Ready player found a été réalisé en 4 semaines en groupe de 4. Le site a été réalisé via React sur le framework pédagogique Harmonia en utilisant l'API Rawg, tout cela en commencant à appréhender la méthode Agile. Nous avons intégré plusieurs fonctionnalités telles qu'un filtre, une fonction de recherche et la pagination.",
